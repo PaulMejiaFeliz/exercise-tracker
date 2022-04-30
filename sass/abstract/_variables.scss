@@ -1,0 +1,46 @@
+// -------------------
+// ------ Fonts ------
+// -------------------
+
+$font-primary: 'Nunito', sans-serif;
+
+$font-size-normal: 1.6rem;
+$font-size-small: 1.4rem;
+$font-size-large: 2rem;
+
+// -------------------
+// ------ Colors -----
+// -------------------
+
+$color-primary: #22b8cf;
+
+$color-primary-light: lighten($color-primary, 30%);
+$color-primary-lighter: lighten($color-primary, 60%);
+$color-primary-lightest: lighten($color-primary, 90%);
+
+$color-primary-dark: darken($color-primary, 30%);
+$color-primary-darker: darken($color-primary, 60%);
+$color-primary-darkest: darken($color-primary, 90%);
+
+$color-secondary: #fcc419;
+
+$color-secondary-light: lighten($color-secondary, 30%);
+$color-secondary-lighter: lighten($color-secondary, 60%);
+$color-secondary-lightest: lighten($color-secondary, 90%);
+
+$color-secondary-dark: darken($color-secondary, 30%);
+$color-secondary-darker: darken($color-secondary, 60%);
+$color-secondary-darkest: darken($color-secondary, 90%);
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-grey: #adb5bd;
+
+$color-grey-light: lighten($color-grey, 30%);
+$color-grey-lighter: lighten($color-grey, 60%);
+$color-grey-lightest: lighten($color-grey, 90%);
+
+$color-grey-dark: darken($color-grey, 30%);
+$color-grey-darker: darken($color-grey, 60%);
+$color-grey-darkest: darken($color-grey, 90%);

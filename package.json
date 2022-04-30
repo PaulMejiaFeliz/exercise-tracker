@@ -1,0 +1,28 @@
+{
+  "name": "exercise-tracker",
+  "version": "1.0.0",
+  "description": "A tracker for exercise routines and weight lifting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulMejiaFeliz/exercise-tracker.git"
+  },
+  "keywords": [
+    "exercise",
+    "tracker",
+    "workout"
+  ],
+  "author": "Paul Mejia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulMejiaFeliz/exercise-tracker/issues"
+  },
+  "homepage": "https://github.com/PaulMejiaFeliz/exercise-tracker#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
