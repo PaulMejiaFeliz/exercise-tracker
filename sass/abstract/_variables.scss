@@ -8,39 +8,44 @@ $font-size-normal: 1.6rem;
 $font-size-small: 1.4rem;
 $font-size-large: 2rem;
 
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
 // -------------------
 // ------ Colors -----
 // -------------------
 
 $color-primary: #22b8cf;
 
-$color-primary-light: lighten($color-primary, 30%);
-$color-primary-lighter: lighten($color-primary, 60%);
-$color-primary-lightest: lighten($color-primary, 90%);
+$color-primary-light: #64cddd;
+$color-primary-lighter: #91dce7;
+$color-primary-lightest: #bdeaf1;
 
-$color-primary-dark: darken($color-primary, 30%);
-$color-primary-darker: darken($color-primary, 60%);
-$color-primary-darkest: darken($color-primary, 90%);
+$color-primary-dark: #188191;
+$color-primary-darker: #115c68;
+$color-primary-darkest: #0a373e;
 
 $color-secondary: #fcc419;
 
-$color-secondary-light: lighten($color-secondary, 30%);
-$color-secondary-lighter: lighten($color-secondary, 60%);
-$color-secondary-lightest: lighten($color-secondary, 90%);
+$color-secondary-light: #fdd65e;
+$color-secondary-lighter: #fee28c;
+$color-secondary-lightest: #feedba;
 
-$color-secondary-dark: darken($color-secondary, 30%);
-$color-secondary-darker: darken($color-secondary, 60%);
-$color-secondary-darkest: darken($color-secondary, 90%);
+$color-secondary-dark: #b08912;
+$color-secondary-darker: #7e620d;
+$color-secondary-darkest: #4c3b07;
 
 $color-white: #fff;
 $color-black: #000;
 
 $color-grey: #adb5bd;
 
-$color-grey-light: lighten($color-grey, 30%);
-$color-grey-lighter: lighten($color-grey, 60%);
-$color-grey-lightest: lighten($color-grey, 90%);
+$color-grey-light: #c6cbd1;
+$color-grey-lighter: #d6dade;
+$color-grey-lightest: #e6e9eb;
 
-$color-grey-dark: darken($color-grey, 30%);
-$color-grey-darker: darken($color-grey, 60%);
-$color-grey-darkest: darken($color-grey, 90%);
+$color-grey-dark: #797f84;
+$color-grey-darker: #575b5f;
+$color-grey-darkest: #343639;

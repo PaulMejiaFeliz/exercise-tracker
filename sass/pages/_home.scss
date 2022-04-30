@@ -1,0 +1,140 @@
+.colors-display {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  justify-items: center;
+
+  width: 70rem;
+  margin: 0 auto;
+
+  border: 0.2rem solid $color-black;
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+  &__box {
+    height: 10rem;
+    width: 100%;
+
+    grid-column: span 2;
+
+    font-size: $font-size-normal;
+    font-weight: $font-weight-medium;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--primary-lightest {
+      background-color: $color-primary-lightest;
+      color: $color-primary-darkest;
+    }
+
+    &--primary-lighter {
+      background-color: $color-primary-lighter;
+      color: $color-primary-darkest;
+    }
+
+    &--primary-light {
+      background-color: $color-primary-light;
+      color: $color-primary-darkest;
+    }
+
+    &--primary {
+      background-color: $color-primary;
+    }
+
+    &--primary-dark {
+      background-color: $color-primary-dark;
+      color: $color-primary-lightest;
+    }
+
+    &--primary-darker {
+      background-color: $color-primary-darker;
+      color: $color-primary-lightest;
+    }
+
+    &--primary-darkest {
+      background-color: $color-primary-darkest;
+      color: $color-primary-lightest;
+    }
+
+    &--secondary-lightest {
+      background-color: $color-secondary-lightest;
+      color: $color-secondary-darkest;
+    }
+
+    &--secondary-lighter {
+      background-color: $color-secondary-lighter;
+      color: $color-secondary-darkest;
+    }
+
+    &--secondary-light {
+      background-color: $color-secondary-light;
+      color: $color-secondary-darkest;
+    }
+
+    &--secondary {
+      background-color: $color-secondary;
+    }
+
+    &--secondary-dark {
+      background-color: $color-secondary-dark;
+      color: $color-secondary-lightest;
+    }
+
+    &--secondary-darker {
+      background-color: $color-secondary-darker;
+      color: $color-secondary-lightest;
+    }
+
+    &--secondary-darkest {
+      background-color: $color-secondary-darkest;
+      color: $color-secondary-lightest;
+    }
+
+    &--grey-lightest {
+      background-color: $color-grey-lightest;
+      color: $color-grey-darkest;
+    }
+
+    &--grey-lighter {
+      background-color: $color-grey-lighter;
+      color: $color-grey-darkest;
+    }
+
+    &--grey-light {
+      background-color: $color-grey-light;
+      color: $color-grey-darkest;
+    }
+
+    &--grey {
+      background-color: $color-grey;
+    }
+
+    &--grey-dark {
+      background-color: $color-grey-dark;
+      color: $color-grey-lightest;
+    }
+
+    &--grey-darker {
+      background-color: $color-grey-darker;
+      color: $color-grey-lightest;
+    }
+
+    &--grey-darkest {
+      background-color: $color-grey-darkest;
+      color: $color-grey-lightest;
+    }
+
+    &--white {
+      background-color: $color-white;
+      grid-column: 1 / span 7;
+      color: $color-black;
+    }
+
+    &--black {
+      background-color: $color-black;
+      grid-column: 8 / span 7;
+      color: white;
+    }
+  }
+}
