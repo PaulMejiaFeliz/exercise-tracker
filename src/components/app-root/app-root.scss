@@ -1,0 +1,15 @@
+:host {
+  min-height: 100vh;
+
+  .page-content {
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 1fr min-content;
+  }
+
+  .main {
+    padding: $spacing-large;
+  }
+}

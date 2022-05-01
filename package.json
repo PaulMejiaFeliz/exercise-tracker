@@ -4,8 +4,11 @@
   "description": "A tracker for exercise routines and weight lifting",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,15 @@
   },
   "homepage": "https://github.com/PaulMejiaFeliz/exercise-tracker#readme",
   "devDependencies": {
-    "node-sass": "^7.0.1"
+    "@stencil/core": "2.13.0",
+    "@stencil/postcss": "^2.1.0",
+    "@stencil/router": "^1.0.1",
+    "@stencil/sass": "^1.5.2",
+    "@types/autoprefixer": "^10.2.0",
+    "@types/jest": "^27.0.3",
+    "autoprefixer": "^10.4.5",
+    "jest": "^27.4.5",
+    "jest-cli": "^27.4.5",
+    "puppeteer": "^13.7.0"
   }
 }

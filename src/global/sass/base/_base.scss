@@ -14,8 +14,4 @@ body {
   box-sizing: border-box;
 
   min-height: 100vh;
-
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: min-content 1fr min-content;
 }
