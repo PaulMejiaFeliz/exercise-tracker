@@ -1,0 +1,21 @@
+.footer {
+  background-color: $color-primary-darkest;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: $spacing-small;
+  padding: $spacing-large;
+}
+
+.copyright {
+  color: $color-grey-lightest;
+  font-size: $font-size-small;
+
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    font-weight: $font-weight-bold;
+    color: inherit;
+  }
+}

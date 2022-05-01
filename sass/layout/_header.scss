@@ -1,0 +1,15 @@
+.header {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
+
+  background-color: $color-primary-darkest;
+
+  &__logo-box {
+    padding: $spacing-small;
+  }
+
+  &__logo {
+    width: 15rem;
+  }
+}
