@@ -1,57 +1,53 @@
-:host {
-  display: block;
+.header {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
 
-  .header {
-    display: grid;
-    grid-template-columns: min-content 1fr;
+  background-color: $color-primary-darkest;
+
+  &__logo-box {
+    padding: $spacing-small;
+  }
+
+  &__logo {
+    width: 15rem;
+  }
+}
+
+.navigation {
+  padding: $spacing-small;
+
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: $spacing-medium;
+    justify-content: flex-end;
     align-items: center;
+  }
 
-    background-color: $color-primary-darkest;
+  &__item {
+    background-color: $color-secondary-light;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
 
-    &__logo-box {
-      padding: $spacing-small;
+    &:hover {
+      background-color: $color-secondary-lighter;
+      transform: scale(1.1);
     }
-
-    &__logo {
-      width: 15rem;
+    &--active {
+      background-color: $color-secondary;
     }
   }
 
-  .navigation {
-    padding: $spacing-small;
-
-    &__list {
-      list-style: none;
-      display: flex;
-      gap: $spacing-medium;
-      justify-content: flex-end;
-      align-items: center;
-    }
-
-    &__item {
-      background-color: $color-secondary-light;
-      border-radius: 0.5rem;
-      transition: all 0.2s ease-in-out;
-
-      &:hover {
-        background-color: $color-secondary-lighter;
-        transform: scale(1.1);
-      }
-      &--active {
-        background-color: $color-secondary;
-      }
-    }
-
-    &__link {
-      .link-active:link,
-      .link-active:visited {
-        text-decoration: none;
-        color: $color-grey-darkest;
-        font-size: $font-size-large;
-        font-weight: $font-weight-medium;
-        display: block;
-        padding: 1rem 2rem;
-      }
+  &__link {
+    a:link,
+    a:visited {
+      text-decoration: none;
+      color: $color-grey-darkest;
+      font-size: $font-size-large;
+      font-weight: $font-weight-medium;
+      display: block;
+      padding: 1rem 2rem;
     }
   }
 }

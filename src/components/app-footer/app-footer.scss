@@ -1,29 +1,25 @@
-:host {
-  display: block;
+.footer {
+  background-color: $color-primary-darkest;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: $spacing-small;
+  padding: $spacing-medium;
 
-  .footer {
-    background-color: $color-primary-darkest;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: $spacing-small;
-    padding: $spacing-medium;
-
-    &__logo {
-      max-width: 15rem;
-    }
+  &__logo {
+    max-width: 15rem;
   }
+}
 
-  .copyright {
-    color: $color-grey-lightest;
-    font-size: $font-size-small;
+.copyright {
+  color: $color-grey-lightest;
+  font-size: $font-size-small;
 
-    &__link:link,
-    &__link:visited {
-      text-decoration: none;
-      font-weight: $font-weight-bold;
-      color: inherit;
-    }
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    font-weight: $font-weight-bold;
+    color: inherit;
   }
 }

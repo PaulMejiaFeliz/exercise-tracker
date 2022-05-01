@@ -6,6 +6,7 @@ import autoprefixer from 'autoprefixer';
 // https://stenciljs.com/docs/config
 
 export const config: Config = {
+  namespace: 'exercise-tracker',
   globalStyle: 'src/global/sass/main.scss',
   globalScript: 'src/global/app.ts',
   taskQueue: 'async',
